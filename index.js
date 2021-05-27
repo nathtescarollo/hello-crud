@@ -7,7 +7,7 @@ const port = 3000;
 const usuarioNathalia = {
     id: 1,
     nome: "nathalia",
-    idade: 35
+    idade: 25
 };
 
 const usuarios = [usuarioNathalia];
@@ -19,3 +19,5 @@ app.get('/usuarios', (req, res) => {
 app.listen(port, () => {
     console.log(`Server is up and running on port ${port}`);
 });
+
+// curl localhost:3000/usuarios
